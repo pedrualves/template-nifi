@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <template encoding-version="1.2">
     <description></description>
-    <groupId>898ef00c-0163-1000-4c48-5ed8aefcd87e</groupId>
+    <groupId>8a269f5c-0163-1000-0505-cfe2054b5c14</groupId>
     <name>cobaia</name>
     <snippet>
         <connections>
-            <id>9c58a6f5-4544-39ad-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
+            <id>97c21638-ac2d-32ad-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
-                <groupId>bc93f6e8-ac2f-3357-0000-000000000000</groupId>
-                <id>efd9c3a8-0c9a-32d6-0000-000000000000</id>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>2f07a597-cfa7-33c5-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -19,63 +19,63 @@
             <name></name>
             <selectedRelationships>success</selectedRelationships>
             <source>
-                <groupId>bc93f6e8-ac2f-3357-0000-000000000000</groupId>
-                <id>32d5c4a7-1203-31e8-0000-000000000000</id>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>a5611f62-ef92-3531-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
         </connections>
         <connections>
-            <id>adff69f8-01f5-33cc-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
+            <id>9e6423f4-7c21-3eff-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
-                <groupId>bc93f6e8-ac2f-3357-0000-000000000000</groupId>
-                <id>32d5c4a7-1203-31e8-0000-000000000000</id>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>88288294-4d10-3b9a-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
             <labelIndex>1</labelIndex>
             <name></name>
+            <selectedRelationships>failure</selectedRelationships>
             <selectedRelationships>success</selectedRelationships>
             <source>
-                <groupId>bc93f6e8-ac2f-3357-0000-000000000000</groupId>
-                <id>2d4b27bf-49ed-3189-0000-000000000000</id>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>3ffbde39-8932-3968-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
         </connections>
         <connections>
-            <id>bc731c40-c133-30e4-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
+            <id>a732ba11-1b0e-3070-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
-                <groupId>bc93f6e8-ac2f-3357-0000-000000000000</groupId>
-                <id>b118e5be-c372-340d-0000-000000000000</id>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>3ffbde39-8932-3968-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
             <labelIndex>1</labelIndex>
             <name></name>
-            <prioritizers>org.apache.nifi.prioritizer.FirstInFirstOutPrioritizer</prioritizers>
             <selectedRelationships>matched</selectedRelationships>
             <source>
-                <groupId>bc93f6e8-ac2f-3357-0000-000000000000</groupId>
-                <id>53d541bc-9f40-3f87-0000-000000000000</id>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>2f07a597-cfa7-33c5-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
         </connections>
         <connections>
-            <id>fc3caacb-123e-3776-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
+            <id>c54af201-1da5-338f-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
-                <groupId>bc93f6e8-ac2f-3357-0000-000000000000</groupId>
-                <id>b24a4b61-319a-3bbe-0000-000000000000</id>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>1696f24d-02c8-307b-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -83,61 +83,219 @@
             <name></name>
             <selectedRelationships>success</selectedRelationships>
             <source>
-                <groupId>bc93f6e8-ac2f-3357-0000-000000000000</groupId>
-                <id>32d5c4a7-1203-31e8-0000-000000000000</id>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>601dbbbe-27d7-33ed-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
         </connections>
         <connections>
-            <id>4c080c16-2c02-3ed7-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
+            <id>f0ff3c00-fe3e-357d-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
-                <groupId>bc93f6e8-ac2f-3357-0000-000000000000</groupId>
-                <id>53d541bc-9f40-3f87-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </destination>
-            <flowFileExpiration>0 sec</flowFileExpiration>
-            <labelIndex>1</labelIndex>
-            <name></name>
-            <selectedRelationships>success</selectedRelationships>
-            <source>
-                <groupId>bc93f6e8-ac2f-3357-0000-000000000000</groupId>
-                <id>a2f73499-67e5-38cf-0000-000000000000</id>
-                <type>PROCESSOR</type>
-            </source>
-            <zIndex>0</zIndex>
-        </connections>
-        <connections>
-            <id>77e50bf1-d17e-3265-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
-            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-            <destination>
-                <groupId>bc93f6e8-ac2f-3357-0000-000000000000</groupId>
-                <id>2d4b27bf-49ed-3189-0000-000000000000</id>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>d0df0497-29b5-317a-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
             <labelIndex>1</labelIndex>
             <name></name>
             <prioritizers>org.apache.nifi.prioritizer.FirstInFirstOutPrioritizer</prioritizers>
+            <selectedRelationships>failure</selectedRelationships>
+            <selectedRelationships>retry</selectedRelationships>
             <selectedRelationships>success</selectedRelationships>
             <source>
-                <groupId>bc93f6e8-ac2f-3357-0000-000000000000</groupId>
-                <id>b118e5be-c372-340d-0000-000000000000</id>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>1696f24d-02c8-307b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>1a9eaf2a-9044-3c96-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>de96efed-7eb4-3df0-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>1696f24d-02c8-307b-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>49d63acd-fee9-3a79-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>601dbbbe-27d7-33ed-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <selectedRelationships>retry</selectedRelationships>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>c1e91824-419f-3321-0000-000000000000</groupId>
+                <id>88288294-4d10-3b9a-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
         </connections>
         <processors>
-            <id>a2f73499-67e5-38cf-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
+            <id>88288294-4d10-3b9a-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
             <position>
-                <x>19.324031013773833</x>
-                <y>62.59042924272694</y>
+                <x>622.6030060385569</x>
+                <y>451.65514570844493</y>
+            </position>
+            <bundle>
+                <artifact>nifi-cassandra-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.6.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Cassandra Contact Points</key>
+                        <value>
+                            <name>Cassandra Contact Points</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Keyspace</key>
+                        <value>
+                            <name>Keyspace</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>SSL Context Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+                            <name>SSL Context Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Client Auth</key>
+                        <value>
+                            <name>Client Auth</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Username</key>
+                        <value>
+                            <name>Username</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Password</key>
+                        <value>
+                            <name>Password</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Consistency Level</key>
+                        <value>
+                            <name>Consistency Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Character Set</key>
+                        <value>
+                            <name>Character Set</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>
+                            <name>Max Wait Time</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Cassandra Contact Points</key>
+                        <value>mac.local:9042</value>
+                    </entry>
+                    <entry>
+                        <key>Keyspace</key>
+                        <value>test</value>
+                    </entry>
+                    <entry>
+                        <key>SSL Context Service</key>
+                    </entry>
+                    <entry>
+                        <key>Client Auth</key>
+                        <value>NONE</value>
+                    </entry>
+                    <entry>
+                        <key>Username</key>
+                    </entry>
+                    <entry>
+                        <key>Password</key>
+                    </entry>
+                    <entry>
+                        <key>Consistency Level</key>
+                        <value>ONE</value>
+                    </entry>
+                    <entry>
+                        <key>Character Set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>0 seconds</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>PutCassandraQL</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>retry</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.cassandra.PutCassandraQL</type>
+        </processors>
+        <processors>
+            <id>a5611f62-ef92-3531-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.30892481260195837</x>
+                <y>0.0</y>
             </position>
             <bundle>
                 <artifact>nifi-kafka-1-0-nar</artifact>
@@ -266,7 +424,7 @@
                 <properties>
                     <entry>
                         <key>bootstrap.servers</key>
-                        <value>192.168.1.6:9092</value>
+                        <value>mac.local:9092</value>
                     </entry>
                     <entry>
                         <key>security.protocol</key>
@@ -340,147 +498,16 @@
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.kafka.pubsub.ConsumeKafka_1_0</type>
         </processors>
         <processors>
-            <id>b118e5be-c372-340d-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
+            <id>d0df0497-29b5-317a-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
             <position>
-                <x>552.3028656576976</x>
-                <y>0.0</y>
-            </position>
-            <bundle>
-                <artifact>nifi-cassandra-nar</artifact>
-                <group>org.apache.nifi</group>
-                <version>1.6.0</version>
-            </bundle>
-            <config>
-                <bulletinLevel>WARN</bulletinLevel>
-                <comments></comments>
-                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                <descriptors>
-                    <entry>
-                        <key>Cassandra Contact Points</key>
-                        <value>
-                            <name>Cassandra Contact Points</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Keyspace</key>
-                        <value>
-                            <name>Keyspace</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>SSL Context Service</key>
-                        <value>
-                            <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
-                            <name>SSL Context Service</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Client Auth</key>
-                        <value>
-                            <name>Client Auth</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Username</key>
-                        <value>
-                            <name>Username</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Password</key>
-                        <value>
-                            <name>Password</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Consistency Level</key>
-                        <value>
-                            <name>Consistency Level</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Character Set</key>
-                        <value>
-                            <name>Character Set</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Max Wait Time</key>
-                        <value>
-                            <name>Max Wait Time</name>
-                        </value>
-                    </entry>
-                </descriptors>
-                <executionNode>ALL</executionNode>
-                <lossTolerant>false</lossTolerant>
-                <penaltyDuration>30 sec</penaltyDuration>
-                <properties>
-                    <entry>
-                        <key>Cassandra Contact Points</key>
-                    </entry>
-                    <entry>
-                        <key>Keyspace</key>
-                    </entry>
-                    <entry>
-                        <key>SSL Context Service</key>
-                    </entry>
-                    <entry>
-                        <key>Client Auth</key>
-                        <value>NONE</value>
-                    </entry>
-                    <entry>
-                        <key>Username</key>
-                    </entry>
-                    <entry>
-                        <key>Password</key>
-                    </entry>
-                    <entry>
-                        <key>Consistency Level</key>
-                        <value>ONE</value>
-                    </entry>
-                    <entry>
-                        <key>Character Set</key>
-                        <value>UTF-8</value>
-                    </entry>
-                    <entry>
-                        <key>Max Wait Time</key>
-                        <value>0 seconds</value>
-                    </entry>
-                </properties>
-                <runDurationMillis>0</runDurationMillis>
-                <schedulingPeriod>0 sec</schedulingPeriod>
-                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                <yieldDuration>1 sec</yieldDuration>
-            </config>
-            <name>PutCassandraQL</name>
-            <relationships>
-                <autoTerminate>false</autoTerminate>
-                <name>failure</name>
-            </relationships>
-            <relationships>
-                <autoTerminate>false</autoTerminate>
-                <name>retry</name>
-            </relationships>
-            <relationships>
-                <autoTerminate>false</autoTerminate>
-                <name>success</name>
-            </relationships>
-            <state>STOPPED</state>
-            <style/>
-            <type>org.apache.nifi.processors.cassandra.PutCassandraQL</type>
-        </processors>
-        <processors>
-            <id>b24a4b61-319a-3bbe-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
-            <position>
-                <x>1048.7516984708086</x>
-                <y>610.6358147998319</y>
+                <x>1271.5885846708572</x>
+                <y>466.1083340106401</y>
             </position>
             <bundle>
                 <artifact>nifi-mongodb-nar</artifact>
@@ -572,7 +599,7 @@
                 <properties>
                     <entry>
                         <key>Mongo URI</key>
-                        <value>mongodb://172.17.0.4:27017</value>
+                        <value>mongodb://mac.local:27017</value>
                     </entry>
                     <entry>
                         <key>Mongo Database Name</key>
@@ -599,6 +626,7 @@
                     </entry>
                     <entry>
                         <key>Update Query Key</key>
+                        <value>_id</value>
                     </entry>
                     <entry>
                         <key>putmongo-update-query</key>
@@ -623,23 +651,23 @@
             </config>
             <name>PutMongo</name>
             <relationships>
-                <autoTerminate>false</autoTerminate>
+                <autoTerminate>true</autoTerminate>
                 <name>failure</name>
             </relationships>
             <relationships>
-                <autoTerminate>false</autoTerminate>
+                <autoTerminate>true</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.mongodb.PutMongo</type>
         </processors>
         <processors>
-            <id>efd9c3a8-0c9a-32d6-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
+            <id>de96efed-7eb4-3df0-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
             <position>
-                <x>1048.5033134188932</x>
-                <y>414.9267644711422</y>
+                <x>1268.1585563388153</x>
+                <y>15.2876444325168</y>
             </position>
             <bundle>
                 <artifact>nifi-amqp-nar</artifact>
@@ -725,14 +753,15 @@
                 <properties>
                     <entry>
                         <key>Exchange Name</key>
-                        <value></value>
+                        <value>amq.topic</value>
                     </entry>
                     <entry>
                         <key>Routing Key</key>
+                        <value>testando</value>
                     </entry>
                     <entry>
                         <key>Host Name</key>
-                        <value>localhost</value>
+                        <value>mac.local</value>
                     </entry>
                     <entry>
                         <key>Port</key>
@@ -740,6 +769,7 @@
                     </entry>
                     <entry>
                         <key>Virtual Host</key>
+                        <value>/</value>
                     </entry>
                     <entry>
                         <key>User Name</key>
@@ -771,23 +801,23 @@
             </config>
             <name>PublishAMQP</name>
             <relationships>
-                <autoTerminate>false</autoTerminate>
+                <autoTerminate>true</autoTerminate>
                 <name>failure</name>
             </relationships>
             <relationships>
-                <autoTerminate>false</autoTerminate>
+                <autoTerminate>true</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.amqp.processors.PublishAMQP</type>
         </processors>
         <processors>
-            <id>2d4b27bf-49ed-3189-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
+            <id>1696f24d-02c8-307b-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
             <position>
-                <x>565.4257486130057</x>
-                <y>275.03492662866097</y>
+                <x>1270.2372415329276</x>
+                <y>237.63039521308247</y>
             </position>
             <bundle>
                 <artifact>nifi-cassandra-nar</artifact>
@@ -879,16 +909,18 @@
                 <properties>
                     <entry>
                         <key>Cassandra Contact Points</key>
+                        <value>mac.local:9042</value>
                     </entry>
                     <entry>
                         <key>Keyspace</key>
+                        <value>test</value>
                     </entry>
                     <entry>
                         <key>SSL Context Service</key>
                     </entry>
                     <entry>
                         <key>Client Auth</key>
-                        <value>REQUIRED</value>
+                        <value>NONE</value>
                     </entry>
                     <entry>
                         <key>Username</key>
@@ -906,6 +938,7 @@
                     </entry>
                     <entry>
                         <key>CQL select query</key>
+                        <value>select * from test;</value>
                     </entry>
                     <entry>
                         <key>Max Wait Time</key>
@@ -917,7 +950,7 @@
                     </entry>
                     <entry>
                         <key>Output Format</key>
-                        <value>Avro</value>
+                        <value>JSON</value>
                     </entry>
                 </properties>
                 <runDurationMillis>0</runDurationMillis>
@@ -938,176 +971,16 @@
                 <autoTerminate>false</autoTerminate>
                 <name>success</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.cassandra.QueryCassandra</type>
         </processors>
         <processors>
-            <id>32d5c4a7-1203-31e8-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
-            <position>
-                <x>416.3045327926932</x>
-                <y>541.8696739431141</y>
-            </position>
-            <bundle>
-                <artifact>nifi-cassandra-nar</artifact>
-                <group>org.apache.nifi</group>
-                <version>1.6.0</version>
-            </bundle>
-            <config>
-                <bulletinLevel>WARN</bulletinLevel>
-                <comments></comments>
-                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                <descriptors>
-                    <entry>
-                        <key>Cassandra Contact Points</key>
-                        <value>
-                            <name>Cassandra Contact Points</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Keyspace</key>
-                        <value>
-                            <name>Keyspace</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>SSL Context Service</key>
-                        <value>
-                            <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
-                            <name>SSL Context Service</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Client Auth</key>
-                        <value>
-                            <name>Client Auth</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Username</key>
-                        <value>
-                            <name>Username</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Password</key>
-                        <value>
-                            <name>Password</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Consistency Level</key>
-                        <value>
-                            <name>Consistency Level</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Character Set</key>
-                        <value>
-                            <name>Character Set</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>CQL select query</key>
-                        <value>
-                            <name>CQL select query</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Max Wait Time</key>
-                        <value>
-                            <name>Max Wait Time</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Fetch size</key>
-                        <value>
-                            <name>Fetch size</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Output Format</key>
-                        <value>
-                            <name>Output Format</name>
-                        </value>
-                    </entry>
-                </descriptors>
-                <executionNode>ALL</executionNode>
-                <lossTolerant>false</lossTolerant>
-                <penaltyDuration>30 sec</penaltyDuration>
-                <properties>
-                    <entry>
-                        <key>Cassandra Contact Points</key>
-                    </entry>
-                    <entry>
-                        <key>Keyspace</key>
-                    </entry>
-                    <entry>
-                        <key>SSL Context Service</key>
-                    </entry>
-                    <entry>
-                        <key>Client Auth</key>
-                        <value>REQUIRED</value>
-                    </entry>
-                    <entry>
-                        <key>Username</key>
-                    </entry>
-                    <entry>
-                        <key>Password</key>
-                    </entry>
-                    <entry>
-                        <key>Consistency Level</key>
-                        <value>ONE</value>
-                    </entry>
-                    <entry>
-                        <key>Character Set</key>
-                        <value>UTF-8</value>
-                    </entry>
-                    <entry>
-                        <key>CQL select query</key>
-                    </entry>
-                    <entry>
-                        <key>Max Wait Time</key>
-                        <value>0 seconds</value>
-                    </entry>
-                    <entry>
-                        <key>Fetch size</key>
-                        <value>0</value>
-                    </entry>
-                    <entry>
-                        <key>Output Format</key>
-                        <value>Avro</value>
-                    </entry>
-                </properties>
-                <runDurationMillis>0</runDurationMillis>
-                <schedulingPeriod>0 sec</schedulingPeriod>
-                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                <yieldDuration>1 sec</yieldDuration>
-            </config>
-            <name>QueryCassandra</name>
-            <relationships>
-                <autoTerminate>false</autoTerminate>
-                <name>failure</name>
-            </relationships>
-            <relationships>
-                <autoTerminate>false</autoTerminate>
-                <name>retry</name>
-            </relationships>
-            <relationships>
-                <autoTerminate>false</autoTerminate>
-                <name>success</name>
-            </relationships>
-            <state>STOPPED</state>
-            <style/>
-            <type>org.apache.nifi.processors.cassandra.QueryCassandra</type>
-        </processors>
-        <processors>
-            <id>53d541bc-9f40-3f87-0000-000000000000</id>
-            <parentGroupId>bc93f6e8-ac2f-3357-0000-000000000000</parentGroupId>
+            <id>2f07a597-cfa7-33c5-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
             <position>
                 <x>0.0</x>
-                <y>337.3635985556115</y>
+                <y>226.77052954237672</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -1289,10 +1162,274 @@
                 <autoTerminate>true</autoTerminate>
                 <name>unmatched</name>
             </relationships>
-            <state>STOPPED</state>
+            <state>RUNNING</state>
             <style/>
             <type>org.apache.nifi.processors.standard.ExtractText</type>
         </processors>
+        <processors>
+            <id>3ffbde39-8932-3968-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.582528546999697</x>
+                <y>450.2616711126842</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.6.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Regular Expression</key>
+                        <value>
+                            <name>Regular Expression</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Replacement Value</key>
+                        <value>
+                            <name>Replacement Value</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Character Set</key>
+                        <value>
+                            <name>Character Set</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Buffer Size</key>
+                        <value>
+                            <name>Maximum Buffer Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Replacement Strategy</key>
+                        <value>
+                            <name>Replacement Strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Evaluation Mode</key>
+                        <value>
+                            <name>Evaluation Mode</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Regular Expression</key>
+                        <value>(^.*$)</value>
+                    </entry>
+                    <entry>
+                        <key>Replacement Value</key>
+                        <value>insert into test(abc) values('$1');</value>
+                    </entry>
+                    <entry>
+                        <key>Character Set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Buffer Size</key>
+                        <value>1 MB</value>
+                    </entry>
+                    <entry>
+                        <key>Replacement Strategy</key>
+                        <value>Regex Replace</value>
+                    </entry>
+                    <entry>
+                        <key>Evaluation Mode</key>
+                        <value>Entire text</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>ReplaceText</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.ReplaceText</type>
+        </processors>
+        <processors>
+            <id>601dbbbe-27d7-33ed-0000-000000000000</id>
+            <parentGroupId>c1e91824-419f-3321-0000-000000000000</parentGroupId>
+            <position>
+                <x>623.0624978805838</x>
+                <y>238.39827851386372</y>
+            </position>
+            <bundle>
+                <artifact>nifi-cassandra-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.6.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Cassandra Contact Points</key>
+                        <value>
+                            <name>Cassandra Contact Points</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Keyspace</key>
+                        <value>
+                            <name>Keyspace</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>SSL Context Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+                            <name>SSL Context Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Client Auth</key>
+                        <value>
+                            <name>Client Auth</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Username</key>
+                        <value>
+                            <name>Username</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Password</key>
+                        <value>
+                            <name>Password</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Consistency Level</key>
+                        <value>
+                            <name>Consistency Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Character Set</key>
+                        <value>
+                            <name>Character Set</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>CQL select query</key>
+                        <value>
+                            <name>CQL select query</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>
+                            <name>Max Wait Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Fetch size</key>
+                        <value>
+                            <name>Fetch size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Output Format</key>
+                        <value>
+                            <name>Output Format</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Cassandra Contact Points</key>
+                        <value>mac.local:9042</value>
+                    </entry>
+                    <entry>
+                        <key>Keyspace</key>
+                        <value>test</value>
+                    </entry>
+                    <entry>
+                        <key>SSL Context Service</key>
+                    </entry>
+                    <entry>
+                        <key>Client Auth</key>
+                        <value>NONE</value>
+                    </entry>
+                    <entry>
+                        <key>Username</key>
+                    </entry>
+                    <entry>
+                        <key>Password</key>
+                    </entry>
+                    <entry>
+                        <key>Consistency Level</key>
+                        <value>ONE</value>
+                    </entry>
+                    <entry>
+                        <key>Character Set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                    <entry>
+                        <key>CQL select query</key>
+                        <value>select * from test;</value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>0 seconds</value>
+                    </entry>
+                    <entry>
+                        <key>Fetch size</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>Output Format</key>
+                        <value>Avro</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>QueryCassandra</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>retry</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.cassandra.QueryCassandra</type>
+        </processors>
     </snippet>
-    <timestamp>06/06/2018 18:52:18 UTC</timestamp>
+    <timestamp>06/07/2018 02:18:20 UTC</timestamp>
 </template>
